@@ -1,7 +1,7 @@
 // MAX of TWO NUMBERS
 console.assert(max(200, 58998) === 58998);
 console.assert(max(-400, 2) === 2);
-console.assert(max(223, 221) === 221);
+console.assert(max(223, 221) === 223);
 
 
 // MAX OF THREE NUMBERS
@@ -37,9 +37,9 @@ console.assert(getLength('this is a really short string') === 29);
 console.assert(getLength('Lorem ipsum dolor sit amet, consectetur adipisicing elit.') === 57);
 
 // CHECK WHICH NUMBER IS GREATER THAN
-console.assert(greaterThan(2, 7) === false);
-console.assert(greaterThan(5, 10) === false);
-console.assert(greaterThan(2000, 50) === true);
+console.assert(greaterThan(7, 2) === true);
+console.assert(greaterThan(10, 5) === true);
+console.assert(greaterThan(50, 2000) === false);
 
 //GREET SOMEONE!
 console.assert(greet("Garret") === "Hello, Garret!");
